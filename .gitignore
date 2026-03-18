@@ -1,0 +1,35 @@
+# Local databases
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.db 
+
+#Raw Data
+/data/raw/
+/data/temp/
+/data/intermediate/
+/exports/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+#System Files
+.DS_Store
+Thumbs.db
+
+#Logs and temp files
+logs/
+tmp/
+*.log
+
+#Tooling (dbt, VS Code, venvs, etc.)
+target/
+.idea/ 
+.vscode/
+_pycache_/
+
+# Tracy's Files 
+.cursorrules
