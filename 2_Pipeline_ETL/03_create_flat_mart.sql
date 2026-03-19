@@ -1,6 +1,8 @@
 -- Mart - Create flat mart table
 -- .read 03_create_flat_mart.sql
 
+DROP SCHEMA IF Exists flat_mart CASCADE;
+
 CREATE SCHEMA flat_mart;
 SELECT '=== Loading FLAT MART SAMPLE ===' AS info;
 CREATE TABLE flat_mart.job_postings AS 
