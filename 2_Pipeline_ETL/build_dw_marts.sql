@@ -1,3 +1,5 @@
+--MASTER BUILD SCRIPT 
+
 -- duckdb dw_marts.duckdb -c ".read build_dw_marts.sql"
 
 -- Step 1 DW - Create star schema tables
@@ -11,3 +13,9 @@
 
 -- Step 4 Create skills demand mart
 .read 04_create_skills_mart.sql
+
+-- Step 5 Create Priority Mart
+.read 05_create_priority_mart.sql 
+
+--Step 6 Create Batch Updates for Priority Mart
+.read 06_batch_updates_priority_mart.sql 
