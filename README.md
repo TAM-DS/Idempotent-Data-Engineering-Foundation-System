@@ -3,6 +3,7 @@
 
 > *"The data doesn't lie. But only if the architecture is honest first."*
 
+[Project Scope]()
 ---
 
 ## 🚀 One Command. Entire Platform.
