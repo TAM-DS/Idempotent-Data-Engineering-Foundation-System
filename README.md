@@ -292,6 +292,6 @@ Clean runs. Full counts. Visible progress. Every time.
 
 ---
 
-*Built by Tracy Manning | [Apex ML Engineering](https://github.com/TAM-DS) | Principal Architect*
+*Built by Tracy Manning | [Apex Engineering](https://github.com/TAM-DS) | Principal Architect*
 
 *"Architecture isn't what you build. It's what you never have to rebuild."*
