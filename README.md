@@ -3,7 +3,7 @@
 
 > *"The data doesn't lie. But only if the architecture is honest first."*
 
-[Project Scope]()
+[Project Scope](https://github.com/TAM-DS/SQL_Data_Engineering_Projects/blob/main/Images/project%20Scope.jpg)
 ---
 
 ## 🚀 One Command. Entire Platform.
