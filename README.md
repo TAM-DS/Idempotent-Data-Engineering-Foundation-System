@@ -30,7 +30,7 @@ Grab a free [MotherDuck](https://motherduck.com) account, run this line, and you
 
 ## The Architecture
 
-![Project Scope](images/project_Scope.jpg)
+![Project Scope]()
 
 The platform moves data through four clearly defined layers:
 
