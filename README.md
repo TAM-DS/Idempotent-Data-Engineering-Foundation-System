@@ -30,8 +30,6 @@ Grab a free [MotherDuck](https://motherduck.com) account, run this line, and you
 
 ## The Architecture
 
-![Project Scope]()
-
 The platform moves data through four clearly defined layers:
 
 **Data Storage → Data Warehouse → Data Marts → Data Serving**
@@ -46,8 +44,6 @@ The platform moves data through four clearly defined layers:
 ---
 
 ## The Data Warehouse — Star Schema
-
-![Data Warehouse Schema](images/Data-Warehouse_1.jpg)
 
 Built on a classic star schema with one central fact table and three dimension tables — optimized for analytical queries, not transactional operations.
 
