@@ -376,6 +376,8 @@ This isn't a tutorial project. It's a **production-grade data platform** built w
 
 **One-command deploy** — Not a convenience feature. A deliberate signal about how production pipelines should be built and handed off.
 
+**Finding-neutral by design** — The warehouse carries no embedded conclusions. Every mart and analytical layer is architected to support any question, not just the ones I asked. Salary, demand, role priority, time series — the platform serves the analyst's lens, not the builder's opinion.
+
 ---
 
 ## 📊 Want To See What The Data Reveals?
