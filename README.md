@@ -16,7 +16,7 @@
 
 ---
 
-> *"The data doesn't lie. But only if the architecture is honest first."*
+> *"Every model is only as intelligent as the data beneath it. Every dashboard only as honest as the architecture behind it. I've seen million-dollar decisions made on corrupted data — nobody questioned the dashboard, they should have questioned the pipeline."*
 
 ---
 
