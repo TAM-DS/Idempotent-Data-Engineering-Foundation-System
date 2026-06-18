@@ -179,7 +179,9 @@ You cannot build reliable AI systems on non-reproducible data pipelines.
 **Total: 9,025,356 rows of real market data.**
 
 ----
-##  Engineering Deep Dive
+#  Engineering Deep Dive <img width="768" height="768" alt="image" src="https://github.com/user-attachments/assets/96d712c6-06be-4c01-99fa-ce2ec87794c6" />
+
+
 
 ### The Master Build Script
 
@@ -210,7 +212,7 @@ No manual teardown. No state management. No surprises. **This is how production 
 .read 06_batch_updates_priority_mart.sql    -- Step 6: MERGE-based upserts
 ```
 
-Foreign key constraints enforce referential integrity throughout. Dimension tables must exist before fact tables. Fact tables before marts. **The build order reflects the dependency graph of the entire platform** — not an arbitrary sequence.
+> Foreign key constraints enforce referential integrity throughout. Dimension tables must exist before fact tables. Fact tables before marts. **The build order reflects the dependency graph of the entire platform** — not an arbitrary sequence.
 ---
 
 ## Pipeline Deep Dive
@@ -388,7 +390,7 @@ SQL_Data_Engineering_Projects/
 → **[Explore the EDA & Findings](./1_EDA)**
 ---
 
-## 🚀 Free Tier Quickstart — Query Live Data in 2 Minutes
+# Free Tier Quickstart — Query Live Data in 2 Minutes
 
 No installs. No infrastructure. No credit card.
 
