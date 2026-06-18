@@ -179,7 +179,7 @@ You cannot build reliable AI systems on non-reproducible data pipelines.
 **Total: 9,025,356 rows of real market data.**
 
 ----
-#  Engineering Deep Dive <img width="768" height="768" alt="image" src="https://github.com/user-attachments/assets/96d712c6-06be-4c01-99fa-ce2ec87794c6" />
+#  Engineering Deep Dive <img width="268" height="268" alt="image" src="https://github.com/user-attachments/assets/96d712c6-06be-4c01-99fa-ce2ec87794c6" />
 
 
 
