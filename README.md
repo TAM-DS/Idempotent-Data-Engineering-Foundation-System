@@ -1,5 +1,5 @@
-# 🦆 End-to-End Data Pipeline & Mart Architecture
-### From Raw CSV to Market Intelligence — Built and Deployed With One Command
+# 🦆 Enterprise-Grade SQL Pipeline Infrastructure for Reproducible Data Systems
+> A fully idempotent, end-to-end data engineering system designed to demonstrate production-style pipeline design, deterministic SQL transformations, and reproducible data infrastructure that can be executed with a single command.
 
 <p align="center">
   <img src="https://img.shields.io/badge/DuckDB-0.10+-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" />
@@ -15,22 +15,33 @@
 </p>
 
 ---
+## Executive Summary
 
-> *"Every model is only as intelligent as the data beneath it. Every dashboard only as honest as the architecture behind it. I've seen million-dollar decisions made on corrupted data — nobody questioned the dashboard, they should have questioned the pipeline."*
+This system implements a complete, reproducible data engineering pipeline that transforms raw datasets into structured analytical outputs through a fully idempotent execution model.
 
+The architecture is designed to eliminate environment drift, manual execution variability, and pipeline inconsistency by ensuring that the entire system can be rebuilt deterministically from source to output.
+
+This repository represents the **data foundation layer** of an enterprise AI architecture stack.
 ---
+## Core Capability
 
-## ⚡ One Command. Entire Platform.
+### One-Line System Execution
 
 ```bash
 duckdb dw_marts.duckdb -c ".read build_dw_marts.sql"
 ```
+This executes the full pipeline end-to-end, including:
 
-That single command builds everything — the data warehouse, all dimension and fact tables, every data mart, batch updates, and validation checks. **From zero to production in under 60 seconds.**
+ - Environment initialization
+ - Data ingestion
+ - SQL-based transformations
+ - Model staging tables
+ - Analytical output generation
+ - Validation checks
 
-This is what idempotent architecture looks like in practice.
+> The system is fully idempotent — repeated executions produce identical outputs without duplication, drift, or state corruption.
 
----
+--- # Updated to here
 
 ## 🚀 Free Tier Quickstart — Query Live Data in 2 Minutes
 
@@ -66,6 +77,26 @@ LIMIT 10;
 ---
 
 ## 🏗️ The Architecture
+
+```mermaid
+flowchart TB
+
+    Raw[Raw Data Sources]
+        --> Ingestion[Ingestion Layer]
+
+    Ingestion --> Staging[Staging Tables]
+
+    Staging --> Transform[SQL Transformation Layer]
+
+    Transform --> Models[Analytical Models]
+
+    Models --> Output[Reporting / Analytics Layer]
+
+    Output --> Validate[Validation & Integrity Checks]
+
+    Validate --> End[Idempotent Output State]
+```
+---
 
 Data moves through four clearly defined layers — no shortcuts, no cowboy transformations:
 
